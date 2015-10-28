@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LeanCloud SMS Tutorial</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_login_name">用户名/邮箱/手机号</string>
+    <string name="prompt_username">用户名</string>
+    <string name="prompt_email">邮箱（选填）</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_sign_up_mobileNumber">手机号（选填）</string>
+    <string name="prompt_verify_mobile_number">手机号</string>
+    <string name="prompt_link_sign_up">新用户请<u>注册</u></string>
+    <string name="prompt_sms_code">验证码</string>
+
+    <string name="action_sign_in">登录</string>
+    <string name="action_sing_up">注册</string>
+    <string name="action_resend">重新发送</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_logout">退出</string>
+    <string name="action_active_mobile">验证</string>
+    <string name="action_verify_skip">跳过</string>
+    <string name="action_send_notice">发送通知</string>
+    <string name="action_operation_verify">操作验证</string>
+    <string name="action_operation_verify_do_verify">验证确认</string>
+
+    <string name="msg_notice_sent">通知已发送。</string>
+    <string name="msg_operation_valid">该操作已验证通过。</string>
+
+    <string name="label_username">用户名</string>
+    <string name="label_email">邮箱</string>
+    <string name="label_mobile">手机号</string>
+    <string name="label_title_notice">通知类</string>
+    <string name="label_title_operation">操作验证类</string>
+
+    <string name="des_notice_sms">点击「发送通知」按钮，可以发送一条通知给当前用户的手机号</string>
+    <string name="des_operation_verify">点击「操作验证」按钮，当前用户就会收到一条关于操作确认的验证码，发送成功之后，页面会跳转到验证界面，让用户输入验证码，以完成验证。</string>
+
+    <string name="error_invalid_username_or_password">用户名和密码不匹配。</string>
+    <string name="error_sign_invalid_mobile">手机号格式错误。</string>
+    <string name="error_invalid_email">邮箱格式不正确</string>
+    <string name="error_invalid_password">密码长度不足 6 位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">不可以为空</string>
+    <string name="error_invalid_mobile_phone">手机号码格式有误，请确认</string>
+    <string name="error_diplicate_active">当前手机号已经验证。</string>
+    <string name="error_invalid_sms_code_format">请输入 6 位的纯数字验证码</string>
+    <string name="error_wrong_sms_code">验证码错误！请重新输入。</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
